@@ -19,7 +19,7 @@ namespace igeekhome_01
         /// <returns></returns>
         public List<Person> FindListByLastName(string lastname)
         {
-            //查询
+            //查询语句
             //  IDbConnection
             using (IDbConnection db = new SqlConnection(DBHelper.ConnStrings))
             {
